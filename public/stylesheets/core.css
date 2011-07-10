@@ -140,6 +140,10 @@ form h5 {
 	margin-left: 0;
 }
 
+.events_last {
+  margin-bottom: 1em;
+}
+
 .events .gfunc {
 	border-color: #a2b935;
 }
