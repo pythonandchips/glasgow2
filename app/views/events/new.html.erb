@@ -1,0 +1,62 @@
+<h2>Add you event to glasgow2</h2>
+<p>If you'd like your techie event listed on glasgow2, fill in the form below.</p>
+<% if @event.errors.any? %>
+  <div class="errors">
+    <p>You missed a couple of things. Please fill them out and re-submit the form</p>
+    <ul>
+      <% @event.errors.full_messages.each do |e| %>
+        <li><%= e %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<%= form_for @event do |f| %>
+  <div>
+    <h3>Your details</h3>
+    <h5>So we can get more details if we need it.</h5>
+    <p>
+      <%= f.label :organiser_name, "Your name" %>
+    </p>
+    <p>
+      <%= f.text_field :organiser_name %>
+    </p>
+    <p>
+    <%= f.label :organiser_email, "Your e-mail" %>
+    </p>
+    <p>
+      <%= f.text_field :organiser_email %>
+    </p>
+  </div>
+  <div>
+    <h3>Event details</h3>
+    <h5>Details on your event</h5>
+    <p>
+      <%= f.label :name, "Event title" %>
+    </p>
+    <p>
+      <%= f.text_field :name %>
+    </p>
+    <p>
+      <%= f.label :who, "Who is the event for?" %>
+    </p>
+    <p>
+      <%= f.text_field :who %>
+    </p>
+    <p>
+      <%= f.label :when, "When does your event occur?" %>
+    </p>
+    <p>
+      <%= f.text_field :when %>
+    </p>
+    <p>
+      <%= f.label :url, "The events web-site" %>
+    </p>
+    <p>
+      <%= f.text_field :url %>
+    </p>
+  </div>
+  <div>
+    <%= submit_tag "Add event" %>
+  </div>
+<% end %>
