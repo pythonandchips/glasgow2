@@ -30,7 +30,13 @@ Glasgow2::Application.configure do
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
   config.serve_static_assets = false
-
+  config.action_mailer.smtp_settings = {
+    :address              => "smtp.gmail.com",
+    :port                 => 587,
+    :user_name            => 'pythonandchips@gmail.com',
+    :password             => 'JamSandwich2005',
+    :authentication       => 'plain',
+    :enable_starttls_auto => true  }
   # Enable serving of images, stylesheets, and javascripts from an asset server
   # config.action_controller.asset_host = "http://assets.example.com"
 

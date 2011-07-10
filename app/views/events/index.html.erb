@@ -18,13 +18,43 @@
       <h2>Monthly</h2>
     </header>
     <ol class="events">
-      <% @events.each do |event| %>
-        <li class="<%= event.css_class %> vcard">
-            <h3><a class="fn org url" href="<%= event.url %>"><%= event.name %></a></h3>
-            <p class="who"><%= event.who %></p>
-            <p class="when"><%= event.when %></p>
-        </li>
-      <% end %>
+      <li class="tech_pizza vcard">
+          <h3><a class="fn org url" href="http://www.facebook.com/event.php?eid=240392245988825">Tech Beer + Pizza</a></h3>
+          <p class="who">Technologiests</p>
+          <p class="when">First Tuesday</p>
+      </li>
+      <li class="grug vcard">
+          <h3><a class="fn org url" href="http://glasgow.scotrug.org">GRug</a></h3>
+          <p class="who">Rubyists</p>
+          <p class="when">First Thursday</p>
+      </li>
+      <li class="glasgowtechnet vcard">
+          <h3><a class="fn org url" href="http://www.glasgowtechnet.com/">Glasgow Tech Network</a></h3>
+          <p class="who">Technologists</p>
+          <p class="when">First or Second Tuesday</p>
+      </li>
+      <li class="web_centric vcard">
+          <h3><a class="fn org url" href="http://www.meetup.com/glasgowwebcentric/">Web Centric</a></h3>
+          <p class="who">Web developers</p>
+          <p class="when">Third Tuesday</p>
+      </li>
+      <li class="scottish_developers vcard">
+          <h3><a class="fn org url" href="http://scottishdevelopers.com">Scottish Developers</a></h3>
+          <p class="who">Developers</p>
+          <p class="when">Third Thursday</p>
+      </li>
+  </ol>
+  </section>
+  <section>
+    <header>
+      <h2>Bi-Monthly</h2>
+    </header>
+    <ol class="events">
+      <li class="book_club vcard">
+          <h3><a class="fn org url" href="http://scottishdevelopers.com/category/events/book-club-events/">Developer Book Club</a></h3>
+          <p class="who">Developers</p>
+          <p class="when">First Tuesday</p>
+      </li>
   </ol>
   </section>
 </article>

@@ -140,54 +140,24 @@ form h5 {
 	margin-left: 0;
 }
 
-.events .refreshedinburgh {
+.events .gfunc {
 	border-color: #a2b935;
 }
-.events .techmeetup {
+.events .grug {
 	border-color: #685c4e;
 }
-.events .scotrug {
+.events .scottish_developers {
 	border-color: #c61a1a;
 }
-.events .macmacdev {
+.events .glasgowtechnet {
 	border-color: #666c78;
 }
-.events .edmug {
+.events .web_centric {
 	border-color: #333333;
 }
-.events .edlug {
+.events .tech_pizza {
 	border-color: #0000ff;
 }
-.events .edinburghpm {
+.events .book_club {
 	border-color: #336699;
-}
-.events .supa {
-	border-color: #ff9805;
-}
-.events .mathsjam {
-	border-color: #b95647;
-}
-.events .jugscotland {
-	border-color: #003366;
-}
-.events .edpug {
-	border-color: #e7eff7;
-}
-.events .edcm {
-	border-color: #990000;
-}
-.events .edinburghpug {
-	border-color: #ffc532;
-}
-.events .leithgeekup {
-	border-color: #e34191;
-}
-.events .edlambda {
-	border-color: #218188;
-}
-.events .ewdd {
-	border-color: #a93742;
-}
-.events .tba {
-	color: #ccc;
 }
