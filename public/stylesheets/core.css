@@ -168,3 +168,9 @@ form h5 {
 .events .techmeetup {
 	border-color: #CC6699;
 }
+.events .popup {
+	border-color: DodgerBlue;
+}
+.events .leanagile {
+	border-color: OrangeRed;
+}
