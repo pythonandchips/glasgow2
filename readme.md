@@ -10,3 +10,15 @@ List of tech events in Glasgow, Scotland
 * Start a feature/bugfix branch
 * Commit and push until you are happy with your contribution
 * Any updates must be able to be deployed on heroku
+
+## Running Glasgow2 locally
+
+Glasgow2 uses the Ruby and the Rack gem to serve web content.
+
+
+From this repo you can run:
+
+```
+rackup
+open http://localhost:9292/
+```
