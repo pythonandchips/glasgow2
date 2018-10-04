@@ -33,8 +33,8 @@ h2 {
 	line-height: 1em;
 }
 h3 {
-	font-size: 1.25em;
-	line-height: 1.2em;
+	font-size: 1.1em;
+	line-height: 0.2em;
 }
 
 article,
@@ -45,12 +45,12 @@ nav {
 }
 
 body > header {
-	padding: 3em 0;
+	padding: 2em 0;
 }
 body > article > section {
 	clear: both;
 	float: left;
-	width: 100%;
+	width: 96%;
 }
 body > article > section > header {
 	clear: both;
@@ -69,7 +69,7 @@ body > article > section > header {
 body > article > section > header h2 {
 	background: #fff;
 	border: 0 solid #ddd;
-	border-width: 1px 1px 0;
+	border-width: auto;
 	float: right;
 	margin: -1.5em 0 17px;
 	padding: 0.5em 0.5em 7px;
@@ -123,17 +123,17 @@ form h5 {
 }
 
 .events {
-	float: left;
+	float: left ;
 	padding: 0;
 	width: 100%;
 }
 .events li {
 	border: 0.5em solid #eee;
 	float: left;
-	height: 4.5em;
-	margin: 0 0 1em 16px;
+	height: 5.5em;
+	margin: 0 0 3em 0px;
 	padding: 0.5em;
-	width: 208px;
+	width: 200px;
 }
 .events li:nth-child(3n-2) {
 	clear: left;
@@ -210,4 +210,8 @@ form h5 {
 
 .events .ladiesofcode {
 	border-color: #3ea86f;
+}
+
+ul {
+  list-style: none;
 }
